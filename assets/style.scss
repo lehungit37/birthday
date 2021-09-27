@@ -307,7 +307,7 @@ body {
 
 @media(max-width: 400px) {
     .text__line {
-        font-size: 2rem;
+        font-size: 1.4rem;
 
         .container {
             span {
@@ -329,21 +329,7 @@ body {
     }
 }
 
-@media (max-width: 300px) {
-    .text__line {
-        font-size: 1.6rem;
 
-
-    }
-}
-
-@media (max-width: 270px) {
-    .text__line {
-        font-size: 1.4rem;
-
-
-    }
-}
 
 @keyframes defaultAnimation {
     0% {
