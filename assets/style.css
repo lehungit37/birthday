@@ -384,6 +384,12 @@ body {
   }
 }
 
+@media (max-width: 250px) {
+  .text__line {
+    font-size: 1.15rem;
+  }
+}
+
 @-webkit-keyframes defaultAnimation {
   0% {
     background: #ff7675;
