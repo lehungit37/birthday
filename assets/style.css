@@ -354,9 +354,9 @@ body {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 375px) {
   .text__line {
-    font-size: 1.4rem;
+    font-size: 2rem;
   }
   .text__line .container span {
     padding: 10px 5px;
@@ -369,6 +369,24 @@ body {
   }
   .message .text__message {
     width: 100%;
+  }
+}
+
+@media (max-width: 280px) {
+  .text__line {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 270px) {
+  .text__line {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 250px) {
+  .text__line {
+    font-size: 1.1rem;
   }
 }
 
