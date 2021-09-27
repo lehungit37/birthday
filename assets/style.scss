@@ -44,7 +44,7 @@ body {
             text-align: center;
             position: relative;
             z-index: 1;
-
+            margin: 0px 3px;
             i {
                 color: #fd79a8;
                 font-size: 40px;
@@ -59,7 +59,9 @@ body {
 
         .line__top {
             margin-bottom: 4rem;
-
+            @include flex(row, center );
+            align-items: center;
+            flex-wrap: nowrap;
             span {
 
 
@@ -91,6 +93,9 @@ body {
         }
 
         .line__bottom {
+            @include flex(row, center );
+            flex-wrap: nowrap;
+            align-items: center;
 
             span {
 

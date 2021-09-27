@@ -47,6 +47,7 @@ body {
   text-align: center;
   position: relative;
   z-index: 1;
+  margin: 0px 3px;
 }
 
 .text__line .container span i {
@@ -61,6 +62,21 @@ body {
 
 .text__line .container .line__top {
   margin-bottom: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 .text__line .container .line__top span::after {
@@ -71,6 +87,24 @@ body {
   height: 35px;
   bottom: -38px;
   background: #ff4d4d;
+}
+
+.text__line .container .line__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .text__line .container .line__bottom span::after {
