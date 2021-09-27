@@ -328,6 +328,13 @@ body {
         }
     }
 }
+@media (max-width: 330px) {
+    .text__line {
+        font-size: 1.6rem;
+
+      
+    }
+}
 
 @keyframes defaultAnimation {
     0% {
