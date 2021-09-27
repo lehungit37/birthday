@@ -340,6 +340,11 @@ body {
         font-size: 1.25rem;
     }
 }
+@media (max-width: 260px) {
+    .text__line {
+        font-size: 1.1rem;
+    }
+}
 
 @media (max-width: 250px) {
     .text__line {
