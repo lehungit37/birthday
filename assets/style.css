@@ -378,7 +378,7 @@ body {
   }
 }
 
-@media (max-width: 280px) {
+@media (max-width: 270px) {
   .text__line {
     font-size: 1.4rem;
   }
