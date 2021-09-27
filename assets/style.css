@@ -372,7 +372,7 @@ body {
   }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 320px) {
   .text__line {
     font-size: 1.6rem;
   }
